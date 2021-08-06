@@ -1,0 +1,15 @@
+#ing{
+    display:inline-flex;
+    width: 400px;
+   
+}
+
+.controls{
+    display:inline-block;
+    width: 400px;
+}
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }

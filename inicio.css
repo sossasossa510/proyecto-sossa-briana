@@ -1,0 +1,152 @@
+*:focus {
+        outline: none;
+    }
+    body {
+    font-family: Arial;
+    background-color: black;
+    text-decoration: lavender;
+    padding: 50px;
+
+    }
+    
+    .btn {
+        border: 2px solid transparent;
+        background:#2980B9;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 0;
+        text-decoration: none;
+        text-shadow: none;
+        border-radius: 3px;
+        box-shadow: none;
+        transition: 0.25s;
+        display: block;
+        width: 80px;
+        margin: 0 auto;
+      }
+      
+      .btn:hover {
+        background-color: #2980B9;
+      }
+      input {
+        text-align: center;
+        background-color: #ECF0F1;
+        border: 2px solid transparent;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 200;
+        padding: 10px 0;
+        width: 200px;
+        transition: border .5s;
+        display: block;
+        margin: 0 auto;
+        text-decoration: none;
+        text-shadow: none;
+        box-shadow: none;
+        }
+        
+        input:focus {
+        border: 2px solid #2980B9;
+        box-shadow: none;
+        }
+
+        footer{
+            background-image:url(img/fondoverde.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width:  100%;
+            margin: 0%;
+            height: 100%;
+        }
+        
+        #menu{
+            text-align: center;
+            border-radius:200px;
+            padding: 0.2%;
+        }
+      
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 70px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      
+      
+      .fa:hover {
+        opacity: 0.7;
+      }
+      
+      
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      
+      .fa-instagram {
+        background:#da3d50;
+        color: white;
+      }
+      .fa-whatsapp {
+        background:chartreuse;
+        color: white;
+      }
+      .footer{
+        color:floralwhite;
+        font-size: 20px;
+        text-align: center;
+        margin: 1px;
+              }
+        
+                  .col-sm-6{
+                      width: 50%;
+
+                     
+
+                  }
+                  .btnm{
+                      width: 100%;
+                  }
+
+                  .controls{
+                    width: 70%;
+                }
+                #mensaje{
+                    height: 300%;
+                    width: 100%;
+                }
+               .desarrollo{
+                    text-decoration: blanchedalmond;
+
+                  }
+
+                  .botons{
+                   background:#2980B9;
+                   width: 80px;
+                   text-decoration: snow;
+
+                  }
+                  .h2{
+                    text-decoration:oldlace;
+                  }
+                  .img{
+                    height:10%;
+                  }
+                  .table{
+                    background-color:darkgrey;
+                    text-align: center;
+
+                  }
+                  h4,h1,h2{
+                    color: snow;
+                  }
+p{
+text-decoration: snow;
+color: snow;
+}
+
+                  

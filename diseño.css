@@ -1,0 +1,177 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400);
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+
+
+
+body{
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#flor{
+  width: 800px;
+  height: 550px;
+
+}
+#variedad{
+  display: inline-flex; 
+  width: 100%;
+  height: 550px; 
+  text-align: center;
+  padding: 30px;
+
+ 
+
+}
+#uno{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    margin-left: 200;
+}
+#dos{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
+#tres{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
+.card-img-top{
+  border-radius: 50%;
+  
+}
+.card{
+  border: 50px;
+  border-radius: 70px;
+  border-top: 20cm;
+  padding: 0.2%;
+}
+.menu{
+  border-radius: 30%;
+ 
+}
+.card-body{
+  text-align: center;
+  
+  
+}
+
+div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike
+,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav
+,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;
+  vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}
+  caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,
+  blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure
+  ,header,hgroup,menu,nav,section,summary{display:block}body{background:#000;font-family:'lucida grande', tahoma, verdana, arial, sans-serif;line-height:1.4}a,input{outline:none}.clear{clear:both}.clearfix,.wpr{*zoom:1}.clearfix:after,.wpr:after{content:"";display:table;clear:both}.wpr{margin:100px auto 0;width:336px}.social{background:#eaeaea;border:1px solid #cacaca;display:block;float:left;height:105px;margin:0 5px;padding:5px;width:80px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;-webkit-box-shadow:inset 0 1px 1px #fff;-moz-box-shadow:inset 0 1px 1px #fff;box-shadow:inset 0 1px 1px #fff}.social .icon{background-color: gray;background-image:url(https://i.imgur.com/QrH5YDn.png);background-repeat:no-repeat;height:40px;margin:8px auto 12px;width:40px;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;-webkit-transition-property:all;-moz-transition-property:all;-o-transition-property:all;transition-property:all;-webkit-transition-duration:0.2s;-moz-transition-duration:0.2s;-o-transition-duration:0.2s;transition-duration:0.2s;-webkit-transition-timing-function:ease-in-out;-moz-transition-timing-function:ease-in-out;-o-transition-timing-function:ease-in-out;transition-timing-function:ease-in-out}.social .shutter_frame{height:44px;overflow:hidden;position:relative;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;-o-border-radius:3px;border-radius:3px}.social .shutter_frame .shutter{bottom:0;left:0;position:absolute;width:100%}.social .shutter_frame .shutter .number,.social .shutter_frame .shutter .text{height:40px;text-align:center;text-transform:uppercase}.social .shutter_frame .shutter .number{color:#fff;font-size:13px;line-height:40px;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;-ms-border-radius:3px 3px 0 0;-o-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-webkit-box-shadow:inset 0 2px 2px rgba(0,0,0,0.5);-moz-box-shadow:inset 0 2px 2px rgba(0,0,0,0.5);box-shadow:inset 0 2px 2px rgba(0,0,0,0.5)}.social .shutter_frame .shutter .text{background:#d8d8d8;color:#666;font-size:12px;line-height:47px;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;-ms-border-radius:0 0 3px 3px;-o-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px;-webkit-box-shadow:inset 0 2px 2px rgba(0,0,0,0.4),inset 0 -1px 1px rgba(0,0,0,0.2);-moz-box-shadow:inset 0 2px 2px rgba(0,0,0,0.4),inset 0 -1px 1px rgba(0,0,0,0.2);box-shadow:inset 0 2px 2px rgba(0,0,0,0.4),inset 0 -1px 1px rgba(0,0,0,0.2)}.social .shutter_frame .shutter .bar{background:#eaeaea;border:1px solid #b7b7b7;height:6px;left:0;position:absolute;top:36px;width:88px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px;-webkit-box-shadow:0 2px 2px rgba(0,0,0,0.5),inset 0 1px 1px #fff;-moz-box-shadow:0 2px 2px rgba(0,0,0,0.5),inset 0 1px 1px #fff;box-shadow:0 2px 2px rgba(0,0,0,0.5),inset 0 1px 1px #fff}.social#instagram .icon{background-position:8px 10px}.social#instagram .number{background:#00aced}.social#instagram:hover .icon{background-color:#00aced}.social#google .icon{background-position:-50px 10px}.social#google .number{background:#da3d50}.social#google:hover .icon{background-color:#da3d50}.social#facebook .icon{background-position:-103px 9px}.social#facebook .number{background:#3f5fa3}.social#facebook:hover .icon{background-color:#3f5fa3}body {background : url(img/WhatsApp\ Video\ 2021-07-01\ at\ 6.28.41\ PM.mp4); background-size: cover ;
+  background-repeat: no-repeat ;
+;}
+
+
+
+body {
+  font-family: "Sofia", sans-serif;
+  font-size: 15px;
+  background-image : url(img/fonneg.jpg);
+   background-size: cover ;
+ 
+
+
+}
+h1{
+  border:#fff;
+  font-size: x-large;
+ font-size: 350%;;
+  white-space:initial;
+  font-weight: bold;
+  color:aliceblue;
+}
+h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+#loco{
+  background-color:#000;
+  color: #b7b7b7;
+  width:  100%;
+  
+}
+h5{
+  font-weight: bold;
+  font-size: 350%;
+}
+footer{
+  background-image:url(img/fondoverde.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+ 
+
+}
+h6{
+  color: #d8d8d8;
+  border: gray;
+  font-size: 350%;
+  font-weight: bold
+}
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 80%;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-instagram {
+  background:#da3d50;
+  color: white;
+}
+.fa-whatsapp {
+  background:chartreuse;
+  color: white;
+}
+.footer{
+  color:floralwhite;
+  font-size: 20px;
+  text-align: center;
+  margin: 1px;
+        }
+        .btn {
+          border: 2px solid transparent;
+          background:#2980B9;
+          color: #ffffff;
+          font-size: 16px;
+          line-height: 25px;
+          padding: 10px 0;
+          text-decoration: none;
+          text-shadow: none;
+          border-radius: 3px;
+          box-shadow: none;
+          transition: 0.25s;
+          display: block;
+          width: 80px;
+          margin: 0 auto;
+        }
+        
+        .btn:hover {
+          background-color: #2980B9;
+        }
